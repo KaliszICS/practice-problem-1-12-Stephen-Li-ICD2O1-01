@@ -46,8 +46,9 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		double num1 = input.nextDouble();
-		num1 = (Math.floor((num1 * 12)));
-		System.out.println(num1);
+		double num2 = (double)num1;
+		num2 = num2 * 12;
+		System.out.println(Math.floor(num2));
 	}
 
 }
